@@ -82,12 +82,35 @@ nav a{
         left: 0;
     }
     .hero4{
-        margin-top: 32rem;
+        margin-top: 5rem;
     }
    .hero3{
     padding-top: 23rem;
    }
+   .role{
+    flex-direction: column;
+    
+   }
+   .header_2{
+    width: 17rem;
+    height: auto
+   }
+   .hero3 p{
+    width: max-content;
+   
+   }
+   .role1{
+    display: block;
+   }
+   .deep{
+    justify-content: space-around;
+    align-items: center
+    
+   }
+  
+
  
+  
   
 }
                     
@@ -114,14 +137,34 @@ nav a{
         width: 7rem;
         margin-right: 5rem;
     }
-    /* .{
-        display: block;
-    } */
-    .nmnl{
+    .role{
+        flex-direction: column;
+    }
+    .header_2{
+        width: 17rem;
+        height: auto
+       }
+    .hero3{
+        width: 32rem;
+    }
+    .hero3{
+        width: fit-content;
+       }
+    .role1{
         display: block;
     }
+    .deep{
+        justify-content: space-around;
+        align-items: center
+    }
+    
 
+   
+    
     }
+   
+
+    
   
     
    
@@ -171,7 +214,7 @@ nav a{
     text-decoration: none
      
 }
-.nmnl{
+.role{
     display: flex;
 }
 .hero a{
@@ -197,6 +240,7 @@ nav a{
     bottom: 5rem;
     
 }
+
 .nml1{
     display: flex;
     margin-top: 1rem;
@@ -208,7 +252,12 @@ nav a{
 }
 .deep{
     display: flex;
-    gap: 62px
+    justify-content: space-around;
+    align-items: center;
+}
+.deep img {
+    max-width: 100%;
+    height: auto;
 }
 #hero4{
     display: flex;
@@ -221,6 +270,19 @@ nav a{
 }
 .deep1{
     margin-left: 39px;
+    background-color: #102057;
+    background-blend-mode: multiply;
+    padding: 5rem;
+    color: white;
+}
+
+.annnn{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 8px 57px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 29rem;
 }
 .ann{
     width: 60rem;
