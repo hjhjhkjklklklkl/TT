@@ -15,6 +15,7 @@ nav{
     padding: 7px 30px;
     color: white;
     border-radius: 10px;
+    margin-left: 43px;
 }
 nav ul{
     width: 100%;
@@ -37,6 +38,9 @@ nav a{
     display: flex;
     align-items: center;
     color: black;
+}
+.header_2{
+    margin-left: 24rem;
 }
 
 /* nav li:first-child{
@@ -64,6 +68,10 @@ nav a{
 #menu-button{
     display: none;
 }
+.service_5{
+    width: 54rem;
+}
+
 
 
 @media only screen and (max-width: 800px){
@@ -94,6 +102,11 @@ nav a{
    .header_2{
     width: 17rem;
     height: auto
+    
+   }
+   .header_2{
+    position: relative;
+    right: 28rem;
    }
    .hero3 p{
     width: max-content;
@@ -107,12 +120,60 @@ nav a{
     align-items: center
     
    }
+   .tt2{
+    flex-direction: column-reverse;
+   }
+   .ann p{
+    width: 27rem;
+   }
+   .ann8{
+    flex-direction: column;
+   }
+   .tt3{
+    display: none;
+   }
+   .ann10{
+    display: none;
+   }
+   .service_1{
+    width: 31rem;
+    justify-items: center;
+   }
+   .service_4{
+    margin-top: 9rem;
+   }
+   #ppp{
+    width: 12rem;
+    height: 15rem;
+   }
+   .service_5{
+    width: 54rem;
+   }
+   .service_5{
+    flex-direction: column;
+    margin-left: 10px;
+    width: 40rem;
+    gap: 5px;
+  }
+  .servive_9{
+    margin-left: 5rem;
+  }
+  .servive_10{
+    margin-left: 5rem;
+  }
+  .tt6{
+    display: grid;
+    gap: 34px;
+    margin-left: 13rem;
+ }
+   }
+  
   
 
  
   
   
-}
+
                     
 
 @media only screen and (max-width: 480px){
@@ -142,8 +203,13 @@ nav a{
     }
     .header_2{
         width: 17rem;
-        height: auto
+        height: 24rem;
        }
+    .header_2{
+        position: relative;
+        right: 28rem;
+        height: 24rem;
+    }
     .hero3{
         width: 32rem;
     }
@@ -157,11 +223,73 @@ nav a{
         justify-content: space-around;
         align-items: center
     }
-    
-
-   
-    
+    #tt1{
+        display: none;
     }
+   .tt2{
+    flex-direction: column-reverse;
+   }
+   .ann p{
+    width: 27rem;
+   }
+   .ann8{
+    flex-direction: column;
+   }
+   .tt3{
+    display: none;
+   }
+   .ann10{
+    display: none;
+   }
+   #ppp{
+    width: 38rem;
+   }
+   .service_1{
+    width: 31rem;
+    justify-items: center;
+   }
+   .service_4{
+    margin-top: 9rem;
+   }
+   #ppp{
+    width: 12rem;
+    height: 15rem;
+   }
+   .service_5{
+    flex-direction: column;
+    margin-left: 10px;
+    width: 40rem;
+    gap: 5px;
+   }
+   .servive_9{
+    margin-left: 5rem;
+   }
+   .servive_10{
+    margin-left: 5rem;
+  }
+  .tt6{
+    display: grid;
+    gap: 34px;
+    margin-left: 13rem;
+ }
+   .service_12{
+    padding-left: 10rem;
+   }
+   .service-8{
+    display: none;
+   }
+   .service_6{
+    display: none;
+   }
+   .sdervice_10{
+    flex-direction: column;
+   }
+  }
+   
+   
+
+    
+    
    
 
     
@@ -234,10 +362,10 @@ nav a{
     border-radius: 23px;
     background-color: #f3f2f1;
     border-radius: 23px;
-    padding: 35px 17px;
+    padding: 40px 51px;
     width: 65%;
     position: relative;
-    bottom: 5rem;
+    bottom: 8rem;
     
 }
 
@@ -265,6 +393,7 @@ nav a{
    
 }
 
+
 .hero5{
     display: flex;
 }
@@ -282,7 +411,7 @@ nav a{
     padding: 8px 57px;
     color: white;
     border-radius: 10px;
-    margin-left: 29rem;
+    /* margin-left: 29rem; */
 }
 .ann{
     width: 60rem;
@@ -295,8 +424,7 @@ nav a{
     margin-top: 5rem;
     margin-left: 15px;
 }
-.ann1{
-   
+ .ann1{
     padding: 7px 30px;
     color: black;  
     border-radius: 10px;
@@ -308,7 +436,7 @@ nav a{
     color: white;
     border-radius: 10px;
 
-}
+} */
 #deep3{
     margin-left: 6rem;
 }
@@ -581,7 +709,7 @@ nav a{
     text-decoration: none;
     font-size: 25px;
     margin-left: 15px;
-    background: #F9F8F4;
+    background:  #FFFFFF;;
     padding: 7px 30px;
     color: white;  
     border-bottom: 10px;
